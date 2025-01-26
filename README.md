@@ -71,7 +71,7 @@ QuestSearch is a web application that allows users to search for questions based
 
     ```bash
     cd server
-    npm start
+    npm run start:dev
     ```
 
 2. Start the client:
