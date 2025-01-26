@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+
+.header {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: slideInFromTop 1.2s ease-in 0.5s forwards; /* Increased duration, added delay, and ease-in effect */
+  opacity: 0;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header img {
+  width: 150px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.header h1 {
+  font-family: 'Porter Sans Block', sans-serif;
+  margin: 0;
+  font-size: 70px;
+}
+
+@media (max-width: 1200px) {
+  .header h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 30px;
+  }
+}
